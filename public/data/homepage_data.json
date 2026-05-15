@@ -1,0 +1,347 @@
+{
+  "homePage": {
+    "homePageMain": {
+      "title": "Enjoy studying with Createx Online Courses",
+      "titleImg": "/img/homePageMain.png",
+      "titlePlay": "Play showreel",
+      "titlePlayIco": "/img/play.svg",
+      "titlePlayAlt": "createx play",
+      "btn1": "About us",
+      "btn2": "Explore courses",
+      "explore": [
+        {
+          "id": 1,
+          "num": "1200",
+          "text": "Students graduated"
+        },
+        {
+          "id": 2,
+          "num": "84",
+          "text": "Completed courses"
+        },
+        {
+          "id": 3,
+          "num": "16",
+          "text": "Qualified tutors"
+        },
+        {
+          "id": 4,
+          "num": "5",
+          "text": "Years of experience"
+        }
+      ]
+    },
+    "homePageAbout": {
+      "aboutImg": "/img/homePageAbout/img",
+      "aboutImgAlt": "createx about us",
+      "titleUp": "Who we are",
+      "titleBottom": "Why Createx?",
+      "selectAbout": [
+        {
+          "id": 1,
+          "ico": "/img/select-arrow.svg",
+          "text": "A fermentum in morbi pretium aliquam adipiscing donec tempus.",
+          "icoAlt": "createx select"
+        },
+        {
+          "id": 2,
+          "ico": "/img/select-arrow.svg",
+          "text": "Vulputate placerat amet pulvinar lorem nisl.",
+          "icoAlt": "createx select"
+        },
+        {
+          "id": 3,
+          "ico": "/img/select-arrow.svg",
+          "text": "Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed.",
+          "icoAlt": "createx select"
+        },
+        {
+          "id": 4,
+          "ico": "/img/select-arrow.svg",
+          "text": "Etiam duis lobortis in fames ultrices commodo nibh.",
+          "icoAlt": "createx select"
+        },
+        {
+          "id": 5,
+          "ico": "/img/select-arrow.svg",
+          "text": "Tincidunt sagittis neque sem ac eget.",
+          "icoAlt": "createx select"
+        },
+        {
+          "id": 6,
+          "ico": "/img/select-arrow.svg",
+          "text": "Ultricies amet justo et eget quisque purus vulputate dapibus tortor.",
+          "icoAlt": "createx select"
+        }
+      ],
+      "button": "More about us"
+    },
+    "homePageCourses": {
+      "titleUp": "Ready to learn?",
+      "titleBottom": "Featured Courses",
+      "button": "View all courses",
+      "cards": [
+        {
+          "id": 1,
+          "position": "Marketing",
+          "title": "The Ultimate Google Ads Training Course",
+          "price": "$100",
+          "name": "by Jerome Bell",
+          "cardImg": "/img/card-img1.png"
+        },
+        {
+          "id": 2,
+          "position": "Marketing",
+          "title": "The Ultimate Google Ads Training Course",
+          "price": "$100",
+          "name": "by Jerome Bell",
+          "cardImg": "/img/card-img2.png"
+        },
+        {
+          "id": 3,
+          "position": "Marketing",
+          "title": "The Ultimate Google Ads Training Course",
+          "price": "$100",
+          "name": "by Jerome Bell",
+          "cardImg": "/img/card-img3.png"
+        },
+        {
+          "id": 4,
+          "position": "Marketing",
+          "title": "The Ultimate Google Ads Training Course",
+          "price": "$100",
+          "name": "by Jerome Bell",
+          "cardImg": "/img/card-img4.png"
+        },
+        {
+          "id": 5,
+          "position": "Marketing",
+          "title": "The Ultimate Google Ads Training Course",
+          "price": "$100",
+          "name": "by Jerome Bell",
+          "cardImg": "/img/card-img5.png"
+        },
+        {
+          "id": 6,
+          "position": "Marketing",
+          "title": "The Ultimate Google Ads Training Course",
+          "price": "$100",
+          "name": "by Jerome Bell",
+          "cardImg": "/img/card-img6.png"
+        }
+      ]
+    },
+    "homePageBenefits": {
+      "titleUp": "Our benefits",
+      "titleBottom": "That’s how we do it",
+      "menu": [
+        {
+          "id": 1,
+          "icoImg": "/img/star.svg",
+          "icoAlt": "createx star",
+          "title": "Experienced Tutors"
+        },
+        {
+          "id": 2,
+          "icoImg": "/img/like.svg",
+          "icoAlt": "createx like",
+          "title": "Feedback & Support"
+        },
+        {
+          "id": 3,
+          "icoImg": "/img/library.svg",
+          "icoAlt": "createx library",
+          "title": "24/7 Online Library"
+        },
+        {
+          "id": 4,
+          "icoImg": "/img/chat.svg",
+          "icoAlt": "createx chat",
+          "title": "Community"
+        }
+      ],
+      "contentTitle": "Only practicing tutors",
+      "contentText": "Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse. Morbi mauris cras massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.",
+      "contentImg": "/img/benefits.svg",
+      "contentAlt": "createx benefits"
+    },
+    "homePageEvents": {
+      "titleUp": "Our Events",
+      "titleBottom": "Lectures & workshops",
+      "eventList": [
+        {
+          "id": 1,
+          "num": "05",
+          "month": "August",
+          "time": "11:00 – 14:00",
+          "title": "Formation of the organizational structure of the company in the face of uncertainty",
+          "text": "Onine master-class",
+          "button": "View more"
+        },
+        {
+          "id": 2,
+          "num": "24",
+          "month": "July",
+          "time": "11:00 – 12:30",
+          "title": "Building a customer service department. Best Practices.",
+          "text": "Onine lecture",
+          "button": "View more"
+        },
+        {
+          "id": 3,
+          "num": "16",
+          "month": "August",
+          "time": "10:00 – 13:00",
+          "title": "How to apply methods of speculative design in practice. Worldbuilding prototyping.",
+          "text": "Onine workshop",
+          "button": "View more"
+        }
+      ],
+      "eventButtonText": "Do you want more?",
+      "button": "Explore all events"
+    },
+    "homePageCertificate": {
+      "titleUp": "Createx Certificate",
+      "titleBottom": "Your expertise will be confirmed",
+      "text": "We are accredited by international professional organizations and institutes:",
+      "company": [
+        {
+          "id": 1,
+          "companyImg": "/img/company1.png",
+          "companyImgAlt": "createx company"
+        },
+        {
+          "id": 2,
+          "companyImg": "/img/company2.png",
+          "companyImgAlt": "createx company"
+        },
+        {
+          "id": 3,
+          "companyImg": "/img/company3.png",
+          "companyImgAlt": "createx company"
+        }
+      ],
+      "certificateImg": "img/certificate.png",
+      "certificateImgAlt": "createx certificate"
+    },
+    "homePageTeam": {
+      "titleUp": "Best tutors are all here",
+      "titleBottom": "Meet our team",
+      "cardRightArrow": "/img/arrowRight.svg",
+      "cardRightLeft": "/img/arrowRight.svg",
+      "cardArrowImgAlt": "createx arrow",
+      "team": [
+        {
+          "id": 1,
+          "teamImg": "/img/teamimg1.png",
+          "teamImgAlt": "createx team",
+          "title": "Dianne Russell",
+          "text": "Founder and CEO"
+        },
+        {
+          "id": 2,
+          "teamImg": "/img/teamimg2.png",
+          "teamImgAlt": "createx team",
+          "title": "Jerome Bell",
+          "text": "Founder and Program Director"
+        },
+        {
+          "id": 3,
+          "teamImg": "/img/teamimg3.png",
+          "teamImgAlt": "createx team",
+          "title": "Kristin Watson",
+          "text": "Marketer, Curator of Marketing Course"
+        },
+        {
+          "id": 4,
+          "teamImg": "/img/teamimg4.png",
+          "teamImgAlt": "createx team",
+          "title": "Marvin McKinney",
+          "text": "PM, Curator of Management Course"
+        }
+      ]
+    },
+    "homePageTestimonial": {
+      "titleUp": "testimonials",
+      "titleBottom": "What our students say",
+      "cardRightArrow": "/img/arrowRight.svg",
+      "cardRightLeft": "/img/arrowRight.svg",
+      "cardArrowImgAlt": "createx arrow",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.",
+      "personImg": "/img/person.png",
+      "personImgAlt": "createx person",
+      "personTitle": "Eleanor Pena",
+      "personText": "Position, Course"
+    },
+    "homePageBlog": {
+      "titleUp": "Our blog",
+      "titleBottom": "Latest posts",
+      "button": "Go to blog",
+      "blog": [
+        {
+          "id": 1,
+          "blogImg": "/img/blogImg1.png",
+          "blogImgAlt": "createx blog",
+          "position": "Podcast",
+          "positionImg": "/img/podcast.svg",
+          "positionImgAlt": "createx podcast",
+          "positionDate": {
+            "text": "Marketing",
+            "calendarImg": "/img/calendar.png",
+            "calendarImgAlt": "createx calendar",
+            "date": "September 4, 2020",
+            "timeimg": "/img/time.png",
+            "timeImgAlt": "createx time",
+            "time": "36 min"
+          },
+          "title": "What is traffic arbitrage and does it really make money?",
+          "text": "Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...",
+          "link": "Listen",
+          "arrowimg": "/img/linkArrow.svg",
+          "arrowimgAlt": "createx arrow"
+        },
+        {
+          "id": 2,
+          "blogImg": "/img/blogImg2.png",
+          "blogImgAlt": "createx blog",
+          "position": "Video",
+          "positionImg": "/img/Video.svg",
+          "positionImgAlt": "createx video",
+          "positionDate": {
+            "text": "Management",
+            "calendarImg": "/img/calendar.png",
+            "calendarImgAlt": "createx calendar",
+            "date": "August 25, 2020",
+            "timeimg": "/img/time.png",
+            "timeImgAlt": "createx time",
+            "time": "45 min"
+          },
+          "title": "What to do and who to talk to if you want to get feedback on the product",
+          "text": "Neque a, senectus consectetur odio in aliquet nec eu. Ultricies ac nibh urna urna sagittis faucibus...",
+          "link": "Watch",
+          "arrowimg": "/img/linkArrow.svg",
+          "arrowimgAlt": "createx arrow"
+        },
+        {
+          "id": 3,
+          "blogImg": "/img/blogImg2.png",
+          "blogImgAlt": "createx blog",
+          "position": "Video",
+          "positionImg": "/img/article.svg",
+          "positionImgAlt": "createx article",
+          "positionDate": {
+            "text": "Design",
+            "calendarImg": "/img/calendar.png",
+            "calendarImgAlt": "createx calendar",
+            "date": "August 8, 2020"
+          },
+          "title": "Should you choose a creative profession if you are attracted to creativity?",
+          "text": "Curabitur nisl tincidunt eros venenatis vestibulum ac placerat. Tortor, viverra sed vulputate ultrices...",
+          "link": "Read",
+          "arrowimg": "/img/linkArrow.svg",
+          "arrowimgAlt": "createx arrow"
+        }
+      ]
+    }
+  }
+}

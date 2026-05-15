@@ -1,0 +1,241 @@
+{
+  "metaData": {
+    "homePage": {
+      "title": "Createx - Home",
+      "description": "Enjoy studying with Createx Online Courses. 1200+ programs, 84 completion courses, 16 certified tutors. Join featured courses in marketing, HR, design and more.",
+      "keywords": "online courses, professional development, Google Ads, HR analytics, product management, brand management, design, certificates, workshops, lectures",
+      "favicon": "/img/favicon.svg",
+      "url": "https://createx.com"
+    },
+    "courses": {
+      "title": "Createx - Courses",
+      "description": "Enjoy studying with Createx Online Courses. 1200+ programs, 84 completion courses, 16 certified tutors. Join featured courses in marketing, HR, design and more.",
+      "keywords": "online courses, professional development, Google Ads, HR analytics, product management, brand management, design, certificates, workshops, lectures",
+      "favicon": "/img/favicon.svg",
+      "url": "https://createx.com/courses"
+    },
+    "course": {
+      "title": "Createx - Course ${slug}",
+      "description": "Enjoy studying with Createx Online Courses. 1200+ programs, 84 completion courses, 16 certified tutors. Join featured courses in marketing, HR, design and more.",
+      "keywords": "online courses, professional development, Google Ads, HR analytics, product management, brand management, design, certificates, workshops, lectures",
+      "favicon": "/img/favicon.svg",
+      "url": "https://createx.com/courses"
+    },
+    "events": {
+      "title": "Createx - Events",
+      "description": "Enjoy studying with Createx Online Courses. 1200+ programs, 84 completion courses, 16 certified tutors. Join featured courses in marketing, HR, design and more.",
+      "keywords": "online courses, professional development, Google Ads, HR analytics, product management, brand management, design, certificates, workshops, lectures",
+      "favicon": "/img/favicon.svg",
+      "url": "https://createx.com/events"
+    },
+    "event": {
+      "title": "Createx - Event",
+      "description": "Enjoy studying with Createx Online Courses. 1200+ programs, 84 completion courses, 16 certified tutors. Join featured courses in marketing, HR, design and more.",
+      "keywords": "online courses, professional development, Google Ads, HR analytics, product management, brand management, design, certificates, workshops, lectures",
+      "favicon": "/img/favicon.svg",
+      "url": "https://createx.com/event"
+    },
+    "about us": {
+      "title": "Createx - About us",
+      "description": "Enjoy studying with Createx Online Courses. 1200+ programs, 84 completion courses, 16 certified tutors. Join featured courses in marketing, HR, design and more.",
+      "keywords": "online courses, professional development, Google Ads, HR analytics, product management, brand management, design, certificates, workshops, lectures",
+      "favicon": "/img/favicon.svg",
+      "url": "https://createx.com/about"
+    },
+    "blogs": {
+      "title": "Createx - Blogs",
+      "description": "Enjoy studying with Createx Online Courses. 1200+ programs, 84 completion courses, 16 certified tutors. Join featured courses in marketing, HR, design and more.",
+      "keywords": "online courses, professional development, Google Ads, HR analytics, product management, brand management, design, certificates, workshops, lectures",
+      "favicon": "/img/favicon.svg",
+      "url": "https://createx.com/blogs"
+    },
+    "blog": {
+      "title": "Createx - Blog",
+      "description": "Enjoy studying with Createx Online Courses. 1200+ programs, 84 completion courses, 16 certified tutors. Join featured courses in marketing, HR, design and more.",
+      "keywords": "online courses, professional development, Google Ads, HR analytics, product management, brand management, design, certificates, workshops, lectures",
+      "favicon": "/img/favicon.svg",
+      "url": "https://createx.com/blog"
+    },
+    "contact": {
+      "title": "Createx - Contact",
+      "description": "Enjoy studying with Createx Online Courses. 1200+ programs, 84 completion courses, 16 certified tutors. Join featured courses in marketing, HR, design and more.",
+      "keywords": "online courses, professional development, Google Ads, HR analytics, product management, brand management, design, certificates, workshops, lectures",
+      "favicon": "/img/favicon.svg",
+      "url": "https://createx.com/contact"
+    }
+  },
+  "header": {
+    "logoImg": "/img/header-logo.svg",
+    "logoImgAlt": "createx logo",
+    "links": [
+      {
+        "id": 1,
+        "name": "Home",
+        "url": "/"
+      },
+      {
+        "id": 2,
+        "name": "About us",
+        "url": "/about"
+      },
+      {
+        "id": 3,
+        "name": "Courses",
+        "url": "/courses"
+      },
+      {
+        "id": 4,
+        "name": "Events",
+        "url": "/events"
+      },
+      {
+        "id": 5,
+        "name": "Blog",
+        "url": "/blog"
+      },
+      {
+        "id": 6,
+        "name": "Contact",
+        "url": "/contact"
+      }
+    ],
+    "buttons": {
+      "btn1": "Get consultation",
+      "buttonIcoimg": "/img/header-btn-ico.svg",
+      "buttonIcoimgAlt": "createx profile",
+      "btn2": "Log in",
+      "btn3": "Register"
+    }
+  },
+
+  "footer": {
+    "footerForm": {
+      "titleUp": "Don’t miss anything",
+      "titleBittom": "Subscribe to the Createx School announcements",
+      "placeholder": "Your working email",
+      "button": "Subscribe"
+    },
+    "footerUp": {
+      "footerLogoImg": "/img/footer-logo.svg",
+      "footerLogoAlt": "createx",
+      "footerDesc": "Createx Online School is a leader in online studying. We have lots of courses and programs from the main market experts. We provide relevant approaches to online learning, internships and employment i the largest companies in the country.",
+      "footerSocialIcons": [
+        {
+          "id": 1,
+          "img": "/img/facebook.svg",
+          "alt": "createx facebook",
+          "imgUrl": "/facebook"
+        },
+        {
+          "id": 2,
+          "img": "/img/twitter.svg",
+          "alt": "createx twitter",
+          "imgUrl": "/twitter"
+        },
+        {
+          "id": 3,
+          "img": "/img/youtube.svg",
+          "alt": "createx youtube",
+          "imgUrl": "/youtube"
+        },
+        {
+          "id": 4,
+          "img": "/img/telegram.svg",
+          "alt": "createx telegram",
+          "imgUrl": "/telegram"
+        },
+        {
+          "id": 5,
+          "img": "/img/instagram.svg",
+          "imgUrl": "/instagram"
+        },
+        {
+          "id": 6,
+          "img": "/img/linkedin.svg",
+          "alt": "createx linkedin",
+          "imgUrl": "/linkedin"
+        }
+      ],
+      "footerSiteMap": {
+        "title": "site map",
+        "links": [
+          {
+            "id": 1,
+            "name": "About us",
+            "url": "/about"
+          },
+          {
+            "id": 2,
+            "name": "Courses",
+            "url": "/courses"
+          },
+          {
+            "id": 3,
+            "name": "Events",
+            "url": "/events"
+          },
+          {
+            "id": 4,
+            "name": "Blog",
+            "url": "/blog"
+          },
+          {
+            "id": 5,
+            "name": "Contact",
+            "url": "/contact"
+          }
+        ]
+      },
+      "footerCourses": {
+        "title": "courses",
+        "links": [
+          {
+            "id": 1,
+            "name": "Marketing",
+            "url": "/marketing"
+          },
+          {
+            "id": 2,
+            "name": "Courses",
+            "url": "/courses"
+          },
+          {
+            "id": 3,
+            "name": "Management",
+            "url": "/management"
+          },
+          {
+            "id": 4,
+            "name": "HR & Recruting",
+            "url": "/hr-recruting"
+          },
+          {
+            "id": 5,
+            "name": "Design",
+            "url": "/design"
+          }
+        ]
+      },
+      "footerContact": {
+        "title": "contact us",
+        "telIcoImg": "/img/footer-tel-ico.svg",
+        "telIcoImgAlt": "createx phone",
+        "tel": "(405) 555-0128",
+        "emailIcoImg": "/img/footer-email-ico.svg",
+        "emailIcoImgAlt": "createx email",
+        "email": "hello@createx.com"
+      },
+      "footerForm": {
+        "title": "sign up to our newsletter",
+        "placeholder": "Email address",
+        "formArrow": "/img/footer-arrow.svg",
+        "desc": "*Subscribe to our newsletter to receive communications and early updates from Createx SEO Agency."
+      }
+    },
+    "footerBottom": {
+      "copyright": "© All rights reserved. Made with by Createx Studio",
+      "copyrightImg": "/img/footer-heart.svg",
+      "copyrightAlt": "createx heart"
+    }
+  }
+}
