@@ -38,7 +38,7 @@ const Header = ({ headerData }) => {
 
         <div className="col-span-4 justify-end gap-[3.6rem] flex items-center">
           <Link
-            className="text-[1.6rem] text-[#FFFFFF] font-[700] bg-gradient-to-r from-[#FF3F3A] to-[#F75E05] py-[1rem] px-[4rem] rounded-[0.4rem]"
+            className="text-[1.6rem] text-[#FFFFFF] font-[700] btn-gradient bg-gradient-to-r from-[#FF3F3A] to-[#F75E05] py-[1rem] px-[4rem] rounded-[0.4rem]"
             href={"/"}
           >
             {headerData?.buttons?.btn1}

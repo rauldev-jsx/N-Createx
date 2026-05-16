@@ -2,9 +2,10 @@
   "homePage": {
     "homePageMain": {
       "title": "Enjoy studying with Createx Online Courses",
-      "titleImg": "/img/homePageMain.png",
+      "titleImg": "/img/homepage/homePageMain.svg",
+      "titleImgAlt": "createx online courses",
       "titlePlay": "Play showreel",
-      "titlePlayIco": "/img/play.svg",
+      "titlePlayIco": "/img/homepage/play.svg",
       "titlePlayAlt": "createx play",
       "btn1": "About us",
       "btn2": "Explore courses",

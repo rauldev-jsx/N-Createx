@@ -8,3 +8,23 @@ html {
   font-size: 62.5%;
   font-family: "Lato", sans-serif;
 }
+
+.main-link-out {
+  outline: 1px solid #ff3f3a;
+  border-radius: 0.4rem;
+  transition: background 0.3s;
+}
+
+.main-link-out:hover {
+  background: linear-gradient(to right, #ff3f3a, #f75e05);
+  color: #ffffff;
+}
+.btn-gradient {
+  background: linear-gradient(to right, #ff3f3a, #f75e05);
+  transition: background 0.3s;
+}
+.btn-gradient:hover {
+  background: transparent;
+  outline: 1px solid #ff3f3a;
+  color: #ff3f3a;
+}

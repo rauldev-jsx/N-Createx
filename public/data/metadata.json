@@ -234,8 +234,7 @@
     },
     "footerBottom": {
       "copyright": "© All rights reserved. Made with by Createx Studio",
-      "copyrightImg": "/img/footer-heart.svg",
-      "copyrightAlt": "createx heart"
+      "gotop": "go to top"
     }
   }
 }

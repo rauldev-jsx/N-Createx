@@ -1,16 +1,13 @@
 import meta from "@/public/data/metadata.json";
 import homepageData from "@/public/data/homepage_data.json";
-import Header from "./(components)/pages/layout/Header";
 import HomePage from "./(components)/pages/HomePage/HomePage";
-import Footer from "./(components)/pages/layout/Footer";
+
 
 const getData = () => {
   const metaData = meta?.metaData?.homePage;
-  const header = meta?.header;
-  const footer = meta?.footer;
-  const homePage = homepageData;
+  const homePage = homepageData?.homePage;
 
-  return { metaData, header, footer, homePage };
+  return { metaData, homePage };
 };
 
 export async function generateMetadata() {
@@ -36,12 +33,10 @@ export async function generateMetadata() {
 }
 
 export default function page() {
-  const { homePage, header, footer } = getData();
+  const { homePage } = getData();
   return (
     <>
-      <Header headerData={header} />
-      <HomePage />
-      <Footer footerData={footer} />
+      <HomePage homeData={homePage} />
     </>
   );
 }

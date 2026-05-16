@@ -1,12 +1,14 @@
 import Image from "next/image";
 import MaxWidth from "../shared_components/MaxWidth";
 import Link from "next/link";
+import FooterForm from "../forms/FooterForm";
+import ScrollTop from "../shared_components/ScrollTop";
 
 const Footer = ({ footerData }) => {
   return (
-    <footer className="bg-[#1E212C] pt-[8rem] pb-[6rem]">
+    <footer className="bg-[#1E212C]">
       <MaxWidth>
-        <div className="grid grid-cols-12 gap-[8rem]">
+        <div className="grid grid-cols-12 gap-[8rem] pt-[8rem] pb-[6rem]">
           {/* 1 — Лого | col-span-4 */}
           <div className="col-span-4">
             <div className="mb-[2.4rem]">
@@ -38,9 +40,7 @@ const Footer = ({ footerData }) => {
             </div>
           </div>
 
-          {/* 2, 3, 4 — Site Map + Courses + Contact | col-span-4 */}
           <div className="col-span-4 grid grid-cols-12 gap-[5rem]">
-            {/* 2 — Site Map */}
             <div className="col-span-3">
               <p className="text-[1.6rem] font-[700] text-white uppercase mb-[1.2rem]">
                 {footerData?.footerUp?.footerSiteMap?.title}
@@ -58,7 +58,6 @@ const Footer = ({ footerData }) => {
               </div>
             </div>
 
-            {/* 3 — Courses */}
             <div className="col-span-3">
               <p className="text-[1.6rem] font-[700] text-white uppercase mb-[1.2rem]">
                 {footerData?.footerUp?.footerCourses?.title}
@@ -76,7 +75,6 @@ const Footer = ({ footerData }) => {
               </div>
             </div>
 
-            {/* 4 — Contact */}
             <div className="col-span-5">
               <p className="text-[1.6rem] font-[700] text-white uppercase mb-[1.2rem]">
                 {footerData?.footerUp?.footerContact?.title}
@@ -115,21 +113,36 @@ const Footer = ({ footerData }) => {
               </div>
             </div>
           </div>
-
-          {/* 5 — Form | col-span-4 */}
           <div className="col-span-4 flex flex-col ml-[8rem]">
-            <p className="text-[1.6rem] font-[700] text-white uppercase mb-[1.2rem]">
+            <p className="text-[1.6rem] font-[700] text-white uppercase mb-[2.4rem]">
               {footerData?.footerUp?.footerForm?.title}
             </p>
 
-            <input
-              type="text"
-              name="email"
-              id={footerData?.footerUp?.footerForm?.placeholder}
-            />
+            <FooterForm formData={footerData} customClass="mb-[2.4rem]" />
+
+            <p className="w-full text-[1rem] text-[#FFFFFF] font-[400]">
+              {footerData?.footerUp?.footerForm?.desc}
+            </p>
           </div>
         </div>
       </MaxWidth>
+      <div className="bg-[#ffffff18] py-[2rem]">
+        <MaxWidth>
+          <div className="flex items-center justify-between">
+            <div>
+              <p className="text-[1.2rem] text-[#FFFFFF] font-[400]">
+                {footerData?.footerBottom?.copyright}
+              </p>
+            </div>
+            <div>
+              <ScrollTop
+                scrollText={footerData?.footerBottom?.gotop}
+                customClass="cursor-pointer uppercase text-[1.4rem] text-[#FFFFFF] font-[700] hover:underline transition"
+              />
+            </div>
+          </div>
+        </MaxWidth>
+      </div>
     </footer>
   );
 };
