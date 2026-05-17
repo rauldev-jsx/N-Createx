@@ -57,3 +57,12 @@ html {
     0px 30px 24px -10px #FF3F3A1A,
     0px 80px 80px -20px #FF3F3A29;
 }
+.person-text::before {
+  content: '';
+  display: block;
+  width: 80px;  
+  height: 80px;
+  background-image: url("/img/homepage/braces.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}

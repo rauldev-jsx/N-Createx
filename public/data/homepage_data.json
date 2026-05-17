@@ -276,28 +276,56 @@
     "team": [
       {
         "id": 1,
-        "teamImg": "/img/teamimg1.png",
+        "teamImg": "/img/homepage/teamimg1.png",
         "teamImgAlt": "createx team",
         "title": "Dianne Russell",
         "text": "Founder and CEO"
       },
       {
         "id": 2,
-        "teamImg": "/img/teamimg2.png",
+        "teamImg": "/img/homepage/teamimg2.png",
         "teamImgAlt": "createx team",
         "title": "Jerome Bell",
         "text": "Founder and Program Director"
       },
       {
         "id": 3,
-        "teamImg": "/img/teamimg3.png",
+        "teamImg": "/img/homepage/teamimg3.png",
         "teamImgAlt": "createx team",
         "title": "Kristin Watson",
         "text": "Marketer, Curator of Marketing Course"
       },
       {
         "id": 4,
-        "teamImg": "/img/teamimg4.png",
+        "teamImg": "/img/homepage/teamimg4.png",
+        "teamImgAlt": "createx team",
+        "title": "Marvin McKinney",
+        "text": "PM, Curator of Management Course"
+      },
+      {
+        "id": 5,
+        "teamImg": "/img/homepage/teamimg1.png",
+        "teamImgAlt": "createx team",
+        "title": "Dianne Russell",
+        "text": "Founder and CEO"
+      },
+      {
+        "id": 6,
+        "teamImg": "/img/homepage/teamimg2.png",
+        "teamImgAlt": "createx team",
+        "title": "Jerome Bell",
+        "text": "Founder and Program Director"
+      },
+      {
+        "id": 7,
+        "teamImg": "/img/homepage/teamimg3.png",
+        "teamImgAlt": "createx team",
+        "title": "Kristin Watson",
+        "text": "Marketer, Curator of Marketing Course"
+      },
+      {
+        "id": 8,
+        "teamImg": "/img/homepage/teamimg4.png",
         "teamImgAlt": "createx team",
         "title": "Marvin McKinney",
         "text": "PM, Curator of Management Course"
@@ -310,11 +338,32 @@
     "cardRightArrow": "/img/arrowRight.svg",
     "cardRightLeft": "/img/arrowRight.svg",
     "cardArrowImgAlt": "createx arrow",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.",
-    "personImg": "/img/person.png",
-    "personImgAlt": "createx person",
-    "personTitle": "Eleanor Pena",
-    "personText": "Position, Course"
+    "testimonial": [
+      {
+        "id": 1,
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.",
+        "personImg": "/img/homepage/person.png",
+        "personImgAlt": "createx person",
+        "personTitle": "Eleanor Pena",
+        "personText": "Position, Course"
+      },
+      {
+        "id": 2,
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.",
+        "personImg": "/img/homepage/person.png",
+        "personImgAlt": "createx person",
+        "personTitle": "Eleanor Pena",
+        "personText": "Position, Course"
+      },
+      {
+        "id": 3,
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.",
+        "personImg": "/img/homepage/person.png",
+        "personImgAlt": "createx person",
+        "personTitle": "Eleanor Pena",
+        "personText": "Position, Course"
+      }
+    ]
   },
   "homePageBlog": {
     "titleUp": "Our blog",
