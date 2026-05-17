@@ -5,7 +5,7 @@ import HomePage from "./(components)/pages/HomePage/HomePage";
 
 const getData = () => {
   const metaData = meta?.metaData?.homePage;
-  const homePage = homepageData?.homePage;
+  const homePage = homepageData;
 
   return { metaData, homePage };
 };

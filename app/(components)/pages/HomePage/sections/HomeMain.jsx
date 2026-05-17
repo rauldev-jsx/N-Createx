@@ -53,7 +53,10 @@ const HomeMain = ({ data }) => {
         <div className="grid grid-cols-12 pb-[6rem]">
           {data?.homePageMain?.explore?.map((item) => {
             return (
-              <div className="col-span-3 flex items-center gap-[1.2rem] justify-center">
+              <div
+                key={item?.id}
+                className="col-span-3 flex items-center gap-[1.2rem] justify-center"
+              >
                 <p className="text-[4.6rem] text-[#1E212C] font-[900]">
                   {item?.num}
                 </p>
