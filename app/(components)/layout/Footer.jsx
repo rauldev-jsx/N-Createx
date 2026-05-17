@@ -9,7 +9,6 @@ const Footer = ({ footerData }) => {
     <footer className="bg-[#1E212C]">
       <MaxWidth>
         <div className="grid grid-cols-12 gap-[8rem] pt-[8rem] pb-[6rem]">
-          {/* 1 — Лого | col-span-4 */}
           <div className="col-span-4">
             <div className="mb-[2.4rem]">
               <Link href={"/"}>
@@ -26,7 +25,7 @@ const Footer = ({ footerData }) => {
                 {footerData?.footerUp?.footerDesc}
               </p>
             </div>
-            <div className="flex gap-[2rem]">
+            <div className="flex items-center gap-[2rem]">
               {footerData?.footerUp?.footerSocialIcons?.map((item) => (
                 <Link href={item?.imgUrl} key={item?.id}>
                   <Image

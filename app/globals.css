@@ -21,10 +21,39 @@ html {
 }
 .btn-gradient {
   background: linear-gradient(to right, #ff3f3a, #f75e05);
-  transition: background 0.3s linear;
+  transition: background 0.3s;
 }
 .btn-gradient:hover {
   background: transparent;
   outline: 1px solid #ff3f3a;
   color: #ff3f3a;
+}
+
+.btn-tab-acvite{
+  outline: 1px solid #ff3f3a;
+}
+
+.btn-tab-hov:hover {
+  outline: 1px solid #ff3f3a;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 0.9s linear;
+}
+
+.card-shadow{
+  transition: 0.3s linear;
+}
+
+.card-shadow:hover {
+  box-shadow: 
+    0px 4px 4px -4px #1E212C0D,
+    0px 12px 10px -6px #FF3F3A14,
+    0px 30px 24px -10px #FF3F3A1A,
+    0px 80px 80px -20px #FF3F3A29;
 }

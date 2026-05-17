@@ -143,33 +143,67 @@
     "menu": [
       {
         "id": 1,
-        "icoImg": "/img/star.svg",
+        "icoImg": "/img/homepage/star.svg",
         "icoAlt": "createx star",
-        "title": "Experienced Tutors"
+        "title": "Experienced Tutors",
+        "filterValue": "tutors"
       },
       {
         "id": 2,
-        "icoImg": "/img/like.svg",
+        "icoImg": "/img/homepage/like.svg",
         "icoAlt": "createx like",
-        "title": "Feedback & Support"
+        "title": "Feedback & Support",
+        "filterValue": "support"
       },
       {
         "id": 3,
-        "icoImg": "/img/library.svg",
+        "icoImg": "/img/homepage/library.svg",
         "icoAlt": "createx library",
-        "title": "24/7 Online Library"
+        "title": "24/7 Online Library",
+        "filterValue": "library"
       },
       {
         "id": 4,
-        "icoImg": "/img/chat.svg",
+        "icoImg": "/img/homepage/сhat.svg",
         "icoAlt": "createx chat",
-        "title": "Community"
+        "title": "Community",
+        "filterValue": "community"
       }
     ],
-    "contentTitle": "Only practicing tutors",
-    "contentText": "Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse. Morbi mauris cras massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.",
-    "contentImg": "/img/benefits.svg",
-    "contentAlt": "createx benefits"
+    "benefitsContent": [
+      {
+        "id": 1,
+        "title": "Only practicing tutors",
+        "text": "Our tutors are active professionals with real-world experience in their fields. They bring practical knowledge to every lesson, helping students bridge the gap between theory and real practice.",
+        "img": "/img/homepage/illustration.svg",
+        "alt": "createx benefits",
+        "filterValue": "tutors"
+      },
+      {
+        "id": 2,
+        "title": "Strong community support",
+        "text": "Join thousands of like-minded learners who share knowledge, ask questions, and grow together. Our community forums and group chats make sure you never feel alone on your learning journey.",
+        "img": "/img/homepage/illustration.svg",
+        "alt": "createx benefits",
+        "filterValue": "community"
+      },
+      {
+        "id": 3,
+        "title": "24/7 access to resources",
+        "text": "Get unlimited access to our extensive library of courses, articles, and materials at any time of day. Whether you prefer studying at dawn or midnight, our library is always open for you.",
+        "img": "/img/homepage/illustration.svg",
+        "alt": "createx benefits",
+        "filterValue": "library"
+      },
+      {
+        "id": 4,
+        "title": "Dedicated feedback & support",
+        "text": "Our support team is always ready to help you with any questions or technical issues. Get personal feedback from tutors on your assignments and keep improving with every step.",
+        "img": "/img/homepage/illustration.svg",
+        "alt": "createx benefits",
+        "filterValue": "support"
+      }
+    ]
   },
   "homePageEvents": {
     "titleUp": "Our Events",
@@ -213,21 +247,24 @@
     "company": [
       {
         "id": 1,
-        "companyImg": "/img/company1.png",
-        "companyImgAlt": "createx company"
+        "companyImg": "/img/homepage/company1.png",
+        "companyImgAlt": "createx company",
+        "companyUrl": "https://www.google.com/"
       },
       {
         "id": 2,
-        "companyImg": "/img/company2.png",
-        "companyImgAlt": "createx company"
+        "companyImg": "/img/homepage/company2.png",
+        "companyImgAlt": "createx company",
+        "companyUrl": "https://www.google.com/"
       },
       {
         "id": 3,
-        "companyImg": "/img/company3.png",
-        "companyImgAlt": "createx company"
+        "companyImg": "/img/homepage/company3.png",
+        "companyImgAlt": "createx company",
+        "companyUrl": "https://www.google.com/"
       }
     ],
-    "certificateImg": "img/certificate.png",
+    "certificateImg": "/img/homepage/certificate.png",
     "certificateImgAlt": "createx certificate"
   },
   "homePageTeam": {
