@@ -22,7 +22,7 @@ const HomeMain = ({ data }) => {
               {data?.homePageMain?.titlePlay}
             </Link>
 
-            <h1 className="text-[6.4rem] text-[#1E212C] font-[900] mb-[6rem] max-w-[500px]">
+            <h1 className="text-[6.4rem] text-[#1E212C] font-[900] mb-[6rem]">
               {data?.homePageMain?.title}
             </h1>
 
