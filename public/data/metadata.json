@@ -107,14 +107,7 @@
       "btn3": "Register"
     }
   },
-
   "footer": {
-    "footerForm": {
-      "titleUp": "Don’t miss anything",
-      "titleBittom": "Subscribe to the Createx School announcements",
-      "placeholder": "Your working email",
-      "button": "Subscribe"
-    },
     "footerUp": {
       "footerLogoImg": "/img/footer-logo.svg",
       "footerLogoAlt": "createx",

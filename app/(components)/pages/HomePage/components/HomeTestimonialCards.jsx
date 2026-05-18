@@ -5,8 +5,7 @@ import Image from "next/image";
 const HomeTestimonialCards = ({ cardData }) => {
   return (
     <Swiper
-      slidesPerView={1}
-      spaceBetween={0}
+      spaceBetween={24}
       loop={true}
       breakpoints={{
         640: {
@@ -42,7 +41,6 @@ const HomeTestimonialCards = ({ cardData }) => {
                 width={72}
                 height={72}
               />
-
               <div className="flex flex-col">
                 <p className="text-[1.6rem] text-[#1E212C] font-[700]">
                   {item?.personTitle}

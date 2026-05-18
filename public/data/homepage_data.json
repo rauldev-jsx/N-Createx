@@ -372,67 +372,75 @@
     "blog": [
       {
         "id": 1,
-        "blogImg": "/img/blogImg1.png",
+        "blogImg": "/img/homepage/blogImg1.png",
         "blogImgAlt": "createx blog",
         "position": "Podcast",
-        "positionImg": "/img/podcast.svg",
+        "positionImg": "/img/homepage/podcast.svg",
         "positionImgAlt": "createx podcast",
         "positionDate": {
           "text": "Marketing",
-          "calendarImg": "/img/calendar.png",
+          "calendarImg": "/img/homepage/calendar.svg",
           "calendarImgAlt": "createx calendar",
           "date": "September 4, 2020",
-          "timeimg": "/img/time.png",
+          "timeimg": "/img/homepage/time.svg",
           "timeImgAlt": "createx time",
           "time": "36 min"
         },
         "title": "What is traffic arbitrage and does it really make money?",
         "text": "Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...",
         "link": "Listen",
-        "arrowimg": "/img/linkArrow.svg",
+        "arrowimg": "/img/homepage/linkArrow.svg",
         "arrowimgAlt": "createx arrow"
       },
       {
         "id": 2,
-        "blogImg": "/img/blogImg2.png",
+        "blogImg": "/img/homepage/blogImg2.png",
         "blogImgAlt": "createx blog",
         "position": "Video",
-        "positionImg": "/img/Video.svg",
+        "positionImg": "/img/homepage/video.svg",
         "positionImgAlt": "createx video",
         "positionDate": {
           "text": "Management",
-          "calendarImg": "/img/calendar.png",
+          "calendarImg": "/img/homepage/calendar.svg",
           "calendarImgAlt": "createx calendar",
           "date": "August 25, 2020",
-          "timeimg": "/img/time.png",
+          "timeimg": "/img/homepage/time.svg",
           "timeImgAlt": "createx time",
           "time": "45 min"
         },
         "title": "What to do and who to talk to if you want to get feedback on the product",
         "text": "Neque a, senectus consectetur odio in aliquet nec eu. Ultricies ac nibh urna urna sagittis faucibus...",
         "link": "Watch",
-        "arrowimg": "/img/linkArrow.svg",
+        "arrowimg": "/img/homepage/linkArrow.svg",
         "arrowimgAlt": "createx arrow"
       },
       {
         "id": 3,
-        "blogImg": "/img/blogImg2.png",
+        "blogImg": "/img/homepage/blogImg3.png",
         "blogImgAlt": "createx blog",
         "position": "Video",
-        "positionImg": "/img/article.svg",
+        "positionImg": "/img/homepage/article.svg",
         "positionImgAlt": "createx article",
         "positionDate": {
           "text": "Design",
-          "calendarImg": "/img/calendar.png",
+          "calendarImg": "/img/homepage/calendar.svg",
           "calendarImgAlt": "createx calendar",
           "date": "August 8, 2020"
         },
         "title": "Should you choose a creative profession if you are attracted to creativity?",
         "text": "Curabitur nisl tincidunt eros venenatis vestibulum ac placerat. Tortor, viverra sed vulputate ultrices...",
         "link": "Read",
-        "arrowimg": "/img/linkArrow.svg",
+        "arrowimg": "/img/homepage/linkArrow.svg",
         "arrowimgAlt": "createx arrow"
       }
     ]
+  },
+  "subscribeData": {
+    "titleUp": "Don’t miss anything",
+    "titleBittom": "Subscribe to the Createx School announcements",
+    "placeholder": "Your working email",
+    "button": "Subscribe",
+    "subscribeImg": "/img/homepage/subscribeImg.svg",
+    "subscribeImgAlt": "createx subscribe"
   }
 }

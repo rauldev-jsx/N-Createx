@@ -33,7 +33,7 @@ export async function generateMetadata() {
 }
 
 export default function page() {
-  const { homePage } = getData();
+  const { homePage} = getData();
   return (
     <>
       <HomePage homeData={homePage} />

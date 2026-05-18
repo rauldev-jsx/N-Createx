@@ -13,23 +13,22 @@ const HomeCourses = ({ data }) => {
   return (
     <section>
       <MaxWidth>
-        <div className="grid grid-cols-12 mt-[10rem] mb-[6rem] justify-between items-center">
-          <div className="col-span-6">
+        <div className="flex justify-between items-end mt-[10rem] mb-[6rem]">
+          <div>
             <p className="text-[1.6rem] text-[#1E212C] font-[700]">
               {data?.homePageCourses?.titleUp}
             </p>
-            <h3 className="text-[4.6rem] text-[#1E212C] font-[900]">
+            <p className="text-[4.6rem] text-[#1E212C] font-[900]">
               {data?.homePageCourses?.titleBottom}
-            </h3>
+            </p>
           </div>
-          <div className="col-span-6 flex justify-end">
-            <Link
-              className="main-link-out text-[1.6rem] text-[#FF3F3A] font-[700] py-[1rem] px-[4rem] main-link-out"
-              href={"/courses"}
-            >
-              {data?.homePageCourses?.button}
-            </Link>
-          </div>
+
+          <Link
+            className="main-link-out text-[1.6rem] text-[#FF3F3A] font-[700] py-[1rem] px-[4rem]"
+            href={"/courses"}
+          >
+            {data?.homePageCourses?.button}
+          </Link>
         </div>
         <div className="grid grid-cols-12 gap-[3rem] mb-[10rem]">
           {data?.homePageCourses?.cards?.map((item) => {

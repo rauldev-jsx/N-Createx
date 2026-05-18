@@ -1,5 +1,7 @@
+import Subscribe from "../../shared_components/Subscribe";
 import HomeAbout from "./sections/HomeAbout";
 import HomeBenefits from "./sections/HomeBenefits";
+import HomeBlog from "./sections/HomeBlog";
 import HomeCertificate from "./sections/HomeCertificate";
 import HomeCourses from "./sections/HomeCourses";
 import HomeEvents from "./sections/HomeEvents";
@@ -7,7 +9,7 @@ import HomeMain from "./sections/HomeMain";
 import HomeTeam from "./sections/HomeTeam";
 import HomeTestimonial from "./sections/HomeTestimonial";
 
-const HomePage = ({ homeData }) => {
+const HomePage = ({ homeData, footerData }) => {
   return (
     <main>
       <HomeMain data={homeData} />
@@ -17,7 +19,9 @@ const HomePage = ({ homeData }) => {
       <HomeEvents data={homeData} />
       <HomeCertificate data={homeData} />
       <HomeTeam data={homeData} />
-      <HomeTestimonial data={homeData}/>
+      <HomeTestimonial data={homeData} />
+      <HomeBlog data={homeData} />
+      <Subscribe data={homeData}/>
     </main>
   );
 };
