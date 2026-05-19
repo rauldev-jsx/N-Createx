@@ -4,7 +4,7 @@ import TitleHeader from "@/app/(components)/shared_components/TitleHeader";
 
 const HomeBenefits = ({ data }) => {
   return (
-    <section>
+    <section className="mb-[12rem]">
       <MaxWidth>
         <TitleHeader
           titleUp={data?.homePageBenefits?.titleUp}
@@ -12,7 +12,7 @@ const HomeBenefits = ({ data }) => {
           customClass="mb-[6rem]"
         />
 
-        <Tabs tabData={data} customClass="mb-[8rem]" />
+        <Tabs tabData={data}/>
       </MaxWidth>
     </section>
   );

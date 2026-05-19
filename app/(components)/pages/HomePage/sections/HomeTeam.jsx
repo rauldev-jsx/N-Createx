@@ -3,7 +3,7 @@ import HomeTeamCards from "../components/HomeTeamCards";
 
 const HomeTeam = ({ data }) => {
   return (
-    <section className="bg-[#F4F5F6] py-[10rem]">
+    <section className="bg-[#F4F5F6] py-[18rem]">
       <MaxWidth>
         <div className="mb-[6rem]">
           <p className="mb-[0.8rem] text-[1.6rem] text-[#1E212C] font-[700]">

@@ -4,7 +4,7 @@ import HomeTestimonialCards from "../components/HomeTestimonialCards";
 
 const HomeTestimonial = ({ data }) => {
   return (
-    <section className="bg-[#F4F5F6]">
+    <section className="bg-[#F4F5F6] pb-[18rem]">
       <MaxWidth>
         <TitleHeader
           titleUp={data?.homePageTestimonial?.titleUp}
@@ -12,7 +12,7 @@ const HomeTestimonial = ({ data }) => {
           customClass="mb-[6rem]"
         />
 
-        <div className="pb-[8rem]">
+        <div>
             <HomeTestimonialCards cardData={data}/>
         </div>
       </MaxWidth>

@@ -5,9 +5,9 @@ import React from "react";
 
 const HomeAbout = ({ data }) => {
   return (
-    <section>
+    <section className="my-[18rem]">
       <MaxWidth>
-        <div className="grid grid-cols-12 gap-[8rem] mt-[10rem]">
+        <div className="grid grid-cols-12 gap-[8rem]">
           <div className="col-span-6">
             <Image
               src={data?.homePageAbout?.aboutImg}

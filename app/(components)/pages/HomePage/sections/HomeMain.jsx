@@ -6,7 +6,7 @@ const HomeMain = ({ data }) => {
   return (
     <section className="bg-[#FDDDD4] mt-[-8rem]">
       <MaxWidth>
-        <div className="grid grid-cols-12 gap-[8rem] pt-[180px] pb-[90px]">
+        <div className="grid grid-cols-12 gap-[8rem] pt-[20rem] pb-[9rem]">
           <div className="col-span-6">
             <Link
               className="text-[#1E212C] text-[1.4rem] font-[700] flex items-center gap-[1.6rem] group mb-[2.4rem]"
@@ -50,7 +50,7 @@ const HomeMain = ({ data }) => {
             />
           </div>
         </div>
-        <div className="grid grid-cols-12 pb-[6rem]">
+        <div className="grid grid-cols-12 pb-[8rem]">
           {data?.homePageMain?.explore?.map((item) => {
             return (
               <div

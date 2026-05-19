@@ -9,7 +9,7 @@ import HomeMain from "./sections/HomeMain";
 import HomeTeam from "./sections/HomeTeam";
 import HomeTestimonial from "./sections/HomeTestimonial";
 
-const HomePage = ({ homeData, footerData }) => {
+const HomePage = ({ homeData }) => {
   return (
     <main>
       <HomeMain data={homeData} />

@@ -5,9 +5,9 @@ import React from "react";
 
 const HomeCertificate = ({ data }) => {
   return (
-    <section>
+    <section className="mb-[12rem]">
       <MaxWidth>
-        <div className="grid grid-cols-12 my-[10rem]">
+        <div className="grid grid-cols-12">
           <div className="col-span-6">
             <span className="text-[1.6rem] text-[#1E212C] font-[700] mb-[0.8rem]">
               {data?.homePageCertificate?.titleUp}
@@ -27,8 +27,8 @@ const HomeCertificate = ({ data }) => {
                       <Image
                         src={item?.companyImg}
                         alt={item?.companyImgAlt}
-                        width={100}
-                        height={100}
+                        width={150}
+                        height={150}
                       />
                     </Link>
                   </div>

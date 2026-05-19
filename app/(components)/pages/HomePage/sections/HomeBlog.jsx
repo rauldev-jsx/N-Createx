@@ -5,7 +5,7 @@ import React from "react";
 
 const HomeBlog = ({ data }) => {
   return (
-    <section>
+    <section className="mb-[18rem]">
       <MaxWidth>
         <div className="flex justify-between items-end mt-[8rem] mb-[6rem]">
           <div>
@@ -24,7 +24,7 @@ const HomeBlog = ({ data }) => {
             {data?.homePageBlog?.button}
           </Link>
         </div>
-        <div className="grid grid-cols-12 mb-[18rem] gap-[3rem]">
+        <div className="grid grid-cols-12 gap-[3rem]">
           {data?.homePageBlog?.blog?.map((item) => {
             return (
               <div className="col-span-4 flex flex-col" key={item?.id}>

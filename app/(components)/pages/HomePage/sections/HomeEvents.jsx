@@ -4,12 +4,12 @@ import Link from "next/link";
 
 const HomeEvents = ({ data }) => {
   return (
-    <section className="bg-[#FDDDD4]">
+    <section className="bg-[#FDDDD4] py-[8rem]">
       <MaxWidth>
         <TitleHeader
           titleUp={data?.homePageEvents?.titleUp}
           titleBottom={data?.homePageEvents?.titleBottom}
-          customClass="pt-[8rem] pb-[6rem]"
+          customClass="mb-[6rem]"
         />
 
         <div className="flex flex-col gap-[2.4rem] pb-[6rem]">
@@ -53,7 +53,7 @@ const HomeEvents = ({ data }) => {
           })}
         </div>
 
-        <div className="flex justify-center items-center flex-wrap gap-[4rem] pb-[8rem]">
+        <div className="flex justify-center items-center flex-wrap gap-[4rem]">
           <p className="text-[2.8rem] text-[#1E212C] font-[700]">
             {data?.homePageEvents?.eventButtonText}
           </p>

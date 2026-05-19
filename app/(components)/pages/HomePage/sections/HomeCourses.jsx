@@ -11,9 +11,9 @@ const HomeCourses = ({ data }) => {
     "HR & Recruiting": "#FF8C00",
   };
   return (
-    <section>
+    <section className="mb-[18rem]">
       <MaxWidth>
-        <div className="flex justify-between items-end mt-[10rem] mb-[6rem]">
+        <div className="flex justify-between items-end mb-[6rem]">
           <div>
             <p className="text-[1.6rem] text-[#1E212C] font-[700]">
               {data?.homePageCourses?.titleUp}
@@ -30,7 +30,7 @@ const HomeCourses = ({ data }) => {
             {data?.homePageCourses?.button}
           </Link>
         </div>
-        <div className="grid grid-cols-12 gap-[3rem] mb-[10rem]">
+        <div className="grid grid-cols-12 gap-[3rem]">
           {data?.homePageCourses?.cards?.map((item) => {
             return (
               <div key={item?.id} className="col-span-6">
