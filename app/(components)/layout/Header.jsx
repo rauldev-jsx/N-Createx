@@ -3,9 +3,18 @@ import Image from "next/image";
 import MaxWidth from "../shared_components/MaxWidth";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useState } from "react";
+import Modal from "../shared_components/Modal";
 
 const Header = ({ headerData }) => {
   const pathName = usePathname();
+  const [isOpen, setIsOpen] = useState(false);
+  const [modalType, setModalType] = useState("login");
+
+  const openModal = (type) => {
+    setModalType(type);
+    setIsOpen(true);
+  };
   return (
     <header className="mt-[3.5rem]">
       <MaxWidth customClass="grid grid-cols-12 items-center">
@@ -52,21 +61,22 @@ const Header = ({ headerData }) => {
                 alt={headerData?.buttons?.buttonIcoimgAlt}
               />
             </div>
-            <Link
+            <button
+              onClick={() => openModal("login")}
               className="text-[1.6rem] text-[#424551] font-[700]"
-              href={"/"}
             >
               {headerData?.buttons?.btn2}
-            </Link>
+            </button>
             <span className="text-[1.6rem] text-[#424551]">{"/"}</span>
-            <Link
+            <button
+              onClick={() => openModal("register")}
               className="text-[1.6rem] text-[#424551] font-[700]"
-              href={"/"}
             >
               {headerData?.buttons?.btn3}
-            </Link>
+            </button>
           </div>
         </div>
+        <Modal isOpen={isOpen} setIsOpen={setIsOpen} type={modalType} data={headerData}/>
       </MaxWidth>
     </header>
   );

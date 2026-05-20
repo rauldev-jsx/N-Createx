@@ -105,6 +105,50 @@
       "buttonIcoimgAlt": "createx profile",
       "btn2": "Log in",
       "btn3": "Register"
+    },
+    "regForm": {
+      "closeImg": "/img/register/reg-close.svg",
+      "closeImgAlt": "createx close",
+      "title": "Sign up",
+      "text": "Registration takes less than a minute but gives you full control over your studying.",
+      "fullName": "Full Name",
+      "placeholderFullName": "Your full name",
+      "email": "Email",
+      "placeholderEmail": "Your working email",
+      "password": "Password",
+      "placeholderPassword": "Create a password",
+      "confirmPassword": "Confirm Password",
+      "placeholderConfirmPassword": "Confirm your password",
+      "rememberMe": "Remember me",
+      "signUp": "Sign up",
+      "account": "Already have an account?",
+      "orSignUpWith": "Or sign up with",
+      "social": [
+        {
+          "id": 1,
+          "img": "/img/register/facebook.svg",
+          "alt": "createx facebook",
+          "url": "/"
+        },
+        {
+          "id": 2,
+          "img": "/img/register/google.svg",
+          "alt": "createx google",
+          "url": "/"
+        },
+        {
+          "id": 3,
+          "img": "/img/register/twitter.svg",
+          "alt": "createx twitter",
+          "url": "/"
+        },
+        {
+          "id": 4,
+          "img": "/img/register/linkedin.svg",
+          "alt": "createx linkedin",
+          "url": "/"
+        }
+      ]
     }
   },
   "footer": {
