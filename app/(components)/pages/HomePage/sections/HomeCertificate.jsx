@@ -5,7 +5,7 @@ import React from "react";
 
 const HomeCertificate = ({ data }) => {
   return (
-    <section className="mb-[12rem]">
+    <section className="my-[12rem]">
       <MaxWidth>
         <div className="grid grid-cols-12">
           <div className="col-span-6">
