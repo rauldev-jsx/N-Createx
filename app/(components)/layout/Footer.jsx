@@ -89,7 +89,7 @@ const Footer = ({ footerData }) => {
 
                   <a
                     className="text-[1.6rem] text-[#ffffff72] font-[400]"
-                    href={footerData?.footerUp?.footerContact?.tel}
+                    href={`tel:${footerData?.footerUp?.footerContact?.tel}`}
                   >
                     {footerData?.footerUp?.footerContact?.tel}
                   </a>
@@ -104,7 +104,7 @@ const Footer = ({ footerData }) => {
 
                   <a
                     className="text-[1.6rem] text-[#ffffff72] font-[400]"
-                    href={footerData?.footerUp?.footerContact?.email}
+                    href={`mailto:${footerData?.footerUp?.footerContact?.email}`}
                   >
                     {footerData?.footerUp?.footerContact?.email}
                   </a>

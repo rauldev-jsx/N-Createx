@@ -9,6 +9,27 @@ html {
   font-family: "Lato", sans-serif;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #50464b;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00000059;
+}
+
+
 .main-link-out {
   outline: 1px solid #ff3f3a;
   border-radius: 0.4rem;
