@@ -106,11 +106,13 @@
       "btn2": "Log in",
       "btn3": "Register"
     },
-    "regForm": {
+    "form": {
       "closeImg": "/img/register/reg-close.svg",
       "closeImgAlt": "createx close",
       "title": "Sign up",
+      "title2": "Sign in",
       "text": "Registration takes less than a minute but gives you full control over your studying.",
+      "text2": "Sign in to your account using email and password provided during registration.",
       "fullName": "Full Name",
       "placeholderFullName": "Your full name",
       "email": "Email",
@@ -120,8 +122,11 @@
       "confirmPassword": "Confirm Password",
       "placeholderConfirmPassword": "Confirm your password",
       "rememberMe": "Remember me",
+      "rememberMe2": "Keep me signed in",
       "signUp": "Sign up",
       "account": "Already have an account?",
+      "account2": "Don't have an account?",
+      "password2": "Forgot password?",
       "orSignUpWith": "Or sign up with",
       "social": [
         {

@@ -16,47 +16,48 @@ const TabRegisterForm = ({ formData, setType }) => {
 
   const inputsData = [
     {
-      inputTitle: formData?.regForm?.fullName,
+      inputTitle: formData?.form?.fullName,
       type: "text",
       name: "fullname",
       id: "fullname",
       maxLength: 30,
       minLength: 2,
       pattern: "[A-Za-zА-Яа-яЁёƏəĞğİiIıÖöÜüÇçŞş\s]+",
-      placeholder: formData?.regForm?.placeholderFullName,
+      placeholder: formData?.form?.placeholderFullName,
       value: form.fullname,
     },
     {
-      inputTitle: formData?.regForm?.email,
+      inputTitle: formData?.form?.email,
       type: "email",
       name: "email",
       id: "email",
       maxLength: 30,
       pattern: "[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$",
-      placeholder: formData?.regForm?.placeholderEmail,
+      placeholder: formData?.form?.placeholderEmail,
       value: form.email,
     },
     {
-      inputTitle: formData?.regForm?.password,
+      inputTitle: formData?.form?.password,
       type: "password",
       name: "password",
       id: "password",
       pattern: "[A-Za-z0-9!@#$%^&*()_+\\-=\\[\\]{};':\"\\\\|,.<>\\/?]+",
-      placeholder: formData?.regForm?.placeholderPassword,
+      placeholder: formData?.form?.placeholderPassword,
       maxLenght: 30,
       value: form.password,
     },
     {
-      inputTitle: formData?.regForm?.confirmPassword,
+      inputTitle: formData?.form?.confirmPassword,
       type: "password",
       name: "confirm",
       id: "confirm",
       pattern: "[A-Za-z0-9!@#$%^&*()_+\\-=\\[\\]{};':\"\\\\|,.<>\\/?]+",
-      placeholder: formData?.regForm?.placeholderConfirmPassword,
+      placeholder: formData?.form?.placeholderConfirmPassword,
       maxLength: 30,
       value: form.confirm,
     },
   ];
+  
   const handleChange = (e) => {
     const { name, value } = e.target;
 
@@ -124,10 +125,10 @@ const TabRegisterForm = ({ formData, setType }) => {
     <>
       <div className="text-center">
         <h3 className="text-[2.8rem] text-[#1E212C] font-[700] mb-[2.4rem]">
-          {formData?.regForm?.title}
+          {formData?.form?.title}
         </h3>
         <p className="text-[1.4rem] text-[#787A80] font-[400] mb-[2.4rem]">
-          {formData?.regForm?.text}
+          {formData?.form?.text}
         </p>
       </div>
       <form onSubmit={handleSubmit}>
@@ -164,10 +165,10 @@ const TabRegisterForm = ({ formData, setType }) => {
               className="w-[1.6rem] h-[1.6rem] accent-[#FF3F3A] cursor-pointer"
             />
             <label
-              htmlFor="remebmer"
+              htmlFor="remember"
               className="text-[1.4rem] text-[#424551] font-[400]"
             >
-              {formData?.regForm?.rememberMe}
+              {formData?.form?.rememberMe}
             </label>
           </div>
           <button
@@ -175,13 +176,13 @@ const TabRegisterForm = ({ formData, setType }) => {
             type="submit"
             disabled={loading}
           >
-            {loading ? "Waiting..." : formData?.regForm?.signUp}
+            {loading ? "Waiting..." : formData?.form?.signUp}
           </button>
         </div>
       </form>
       <div className="flex items-center my-[2.4rem]">
         <p className="text-[1.4rem] text-[#424551] font-[400]">
-          {formData?.regForm?.account}
+          {formData?.form?.account}
         </p>
 
         <button
@@ -189,15 +190,15 @@ const TabRegisterForm = ({ formData, setType }) => {
           onClick={() => setType("login")}
           className="text-[1.4rem] text-[#FF3F3A] font-[400] pl-[0.2rem]"
         >
-          {formData?.regForm?.signUp}
+          {formData?.form?.signUp}
         </button>
       </div>
       <div className="text-center">
         <p className="text-[1.4rem] text-[#787A80] font-[400] mb-[1.6rem]">
-          {formData?.regForm?.orSignUpWith}
+          {formData?.form?.orSignUpWith}
         </p>
         <div className="flex items-center justify-center gap-[1.3rem]">
-          {formData?.regForm?.social?.map((item) => {
+          {formData?.form?.social?.map((item) => {
             return (
               <Link key={item?.id} href={item?.url}>
                 <Image src={item?.img} alt={item?.alt} height={24} width={24} />

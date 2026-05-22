@@ -30,8 +30,8 @@ const Modal = ({ data, isOpen, setIsOpen, type }) => {
         <div className="flex justify-end">
           <button onClick={handleClose}>
             <Image
-              src={data?.regForm?.closeImg}
-              alt={data?.regForm?.closeImgAlt}
+              src={data?.form?.closeImg}
+              alt={data?.form?.closeImgAlt}
               width={24}
               height={24}
             />

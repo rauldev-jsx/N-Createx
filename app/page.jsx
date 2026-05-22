@@ -4,7 +4,6 @@ import HomePage from "./(components)/pages/HomePage/HomePage";
 import Header from "./(components)/layout/Header";
 import Footer from "./(components)/layout/Footer";
 
-
 const getData = () => {
   const metaData = meta?.metaData?.homePage;
   const homePage = homepageData;
@@ -37,7 +36,7 @@ export async function generateMetadata() {
 }
 
 export default function page() {
-  const { homePage, header, footer} = getData();
+  const { homePage, header, footer } = getData();
   return (
     <>
       <Header headerData={header} />

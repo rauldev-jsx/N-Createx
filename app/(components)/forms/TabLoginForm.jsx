@@ -1,9 +1,179 @@
-const TabLoginForm = () => {
+import Image from "next/image";
+import Link from "next/link";
+import React, { useState } from "react";
+
+const TabLoginForm = ({ formData, setType }) => {
+  const [form, setForm] = useState({
+    email: "",
+    password: "",
+  });
+
+  // const [loading, setLoading] = useState(false);
+  // const [success, setSuccess] = useState(false);
+
+  const inputsData = [
+    {
+      inputTitle: formData.form?.email,
+      name: "email",
+      type: "email",
+      id: "email",
+      // pattern: "[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$",
+      placeholder: formData?.form?.placeholderEmail,
+      value: form.email,
+    },
+    {
+      inputTitle: formData?.form?.password,
+      type: "password",
+      name: "password",
+      id: "password",
+      // pattern: "[A-Za-z0-9!@#$%^&*()_+\\-=\\[\\]{};':\"\\\\|,.<>\\/?]+",
+      placeholder: formData?.form?.placeholderPassword,
+      value: form.password,
+    },
+  ];
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+
+    if (name === "email") {
+      const cleaned = value.replace(/[^A-Za-z0-9@\._\-]/g, "").toLowerCase();
+      setForm((prev) => ({ ...prev, [name]: cleaned }));
+      return;
+    }
+
+    if (name === "password") {
+      const cleaned = value.replace(
+        /[^A-Za-z0-9!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/g,
+        "",
+      );
+      setForm((prev) => ({ ...prev, [name]: cleaned }));
+      return;
+    }
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (!form.email || !form.password) {
+      alert("TEST: please fill in all fields!");
+      return;
+    }
+
+    // setLoading(true);
+
+    // setTimeout(() => {
+    //   setLoading(false);
+    //   setSuccess(true);
+
+    //   setForm({
+    //     fullname: "",
+    //     email: "",
+    //     password: "",
+    //     confirm: "",
+    //   });
+
+    //   setTimeout(() => setSuccess(false), 3000);
+    // }, 1500);
+  };
+
   return (
-    <div>
-      
-    </div>
+    <>
+      <div className="text-center">
+        <h3 className="text-[2.8rem] text-[#1E212C] font-[700] mb-[2.4rem]">
+          {formData?.form?.title2}
+        </h3>
+        <p className="text-[1.4rem] text-[#787A80] font-[400] mb-[2.4rem]">
+          {formData?.form?.text2}
+        </p>
+      </div>
+      <form onSubmit={handleSubmit}>
+        <div className="flex flex-col">
+          {inputsData?.map((item, index) => {
+            return (
+              <React.Fragment key={index}>
+                <p className="text-[1.4rem] text-[#424551] font-[400] mb-[0.8rem]">
+                  {item?.inputTitle}
+                </p>
+                <input
+                  onChange={handleChange}
+                  id={item?.id}
+                  type={item?.type}
+                  name={item?.name}
+                  maxLength={item?.maxLenght}
+                  minLength={item?.minLength}
+                  pattern={item?.pattern}
+                  placeholder={item?.placeholder}
+                  value={item?.value}
+                  className="border-[1px] border-[#D7DADD] pl-[1.6rem] py-[1.2rem] text-[1.4rem] text-[#9A9CA5] font-[400] mb-[3.2rem] outline-none"
+                />
+              </React.Fragment>
+            );
+          })}
+          {/* {success && (
+            <p className="text-[1.6rem] mb-[1.6rem]">{"Successfully sent!"}</p>
+          )} */}
+          <div className="flex justify-between items-center gap-[1rem] mb-[2.4rem]">
+            <div className="flex items-center gap-[1rem]">
+              <input
+                type="checkbox"
+                id="remember"
+                name="remember"
+                className="w-[1.6rem] h-[1.6rem] accent-[#FF3F3A] cursor-pointer"
+              />
+              <label
+                htmlFor="remember"
+                className="text-[1.4rem] text-[#424551] font-[400]"
+              >
+                {formData?.form?.rememberMe2}
+              </label>
+            </div>
+
+            <Link
+              className="text-[1.4rem] text-[#FF3F3A] font-[400]"
+              href={"/"}
+            >
+              {formData?.form?.password2}
+            </Link>
+          </div>
+          <button
+            className="text-[1.4rem] text-[#FFFFFF] font-[700] btn-gradient py-[1.1rem] rounded-[0.4rem]"
+            type="submit"
+            // disabled={loading}
+          >
+            {formData?.form?.signUp}
+            {/* {loading ? "Waiting..." : formData?.form?.signUp} */}
+          </button>
+        </div>
+      </form>
+      <div className="flex items-center my-[2.4rem]">
+        <p className="text-[1.4rem] text-[#424551] font-[400]">
+          {formData?.form?.account2}
+        </p>
+
+        <button
+          type="button"
+          onClick={() => setType("register")}
+          className="text-[1.4rem] text-[#FF3F3A] font-[400] pl-[0.2rem]"
+        >
+          {formData?.form?.signUp}
+        </button>
+      </div>
+      <div className="text-center">
+        <p className="text-[1.4rem] text-[#787A80] font-[400] mb-[1.6rem]">
+          {formData?.form?.orSignUpWith}
+        </p>
+        <div className="flex items-center justify-center gap-[1.3rem]">
+          {formData?.form?.social?.map((item) => {
+            return (
+              <Link key={item?.id} href={item?.url}>
+                <Image src={item?.img} alt={item?.alt} height={24} width={24} />
+              </Link>
+            );
+          })}
+        </div>
+      </div>
+    </>
   );
-}
+};
 
 export default TabLoginForm;

@@ -19,7 +19,7 @@ const HomeCertificate = ({ data }) => {
             <p className="text-[1.6rem] text-[#424551] font-[400] mb-[3.2rem]">
               {data?.homePageCertificate?.text}
             </p>
-            <div className="flex gap-[4rem]">
+            <div className="flex gap-[4rem]"> 
               {data?.homePageCertificate?.company?.map((item) => {
                 return (
                   <div key={item?.id}>
