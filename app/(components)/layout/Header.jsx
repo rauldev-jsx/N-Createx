@@ -76,7 +76,12 @@ const Header = ({ headerData }) => {
             </button>
           </div>
         </div>
-        <Modal isOpen={isOpen} setIsOpen={setIsOpen} type={modalType} data={headerData}/>
+        <Modal
+          isOpen={isOpen}
+          setIsOpen={setIsOpen}
+          type={modalType}
+          data={headerData}
+        />
       </MaxWidth>
     </header>
   );

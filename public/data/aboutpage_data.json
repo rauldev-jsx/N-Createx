@@ -1,0 +1,299 @@
+{
+  "aboutSchool": {
+    "titleUp": "About us",
+    "titleBottom": "Createx Online School",
+    "text1": "Createx Online School is a leader in online studying. We have lots of courses and programs from the main market experts.",
+    "text2": "We provide relevant approaches to online learning, internships and employment in the largest companies in the country. Our educational programs help you get a new specialty from scratch. During your studies, we will help you find a job. Check the courses and online events that we organise.",
+    "btnLink1": "Explore events",
+    "btnLink2": "Browse courses",
+    "aboutTitleImg": "/img/about/scholl.png",
+    "aboutTitleImgAlt": "createx about"
+  },
+  "aboutVideo": {
+    "titleUp": "Watch Video",
+    "titleUpImg": "/img/about/play.svg",
+    "titleUpImgAlt": "createx play",
+    "aboutVideoImg": "/img/about/video.png",
+    "aboutVideoImgAlt": "createx video",
+    "student": [
+      {
+        "id": 1,
+        "num": 1200,
+        "text": "students graduated"
+      },
+      {
+        "id": 2,
+        "num": 84,
+        "text": "completed courses"
+      },
+      {
+        "id": 3,
+        "num": 16,
+        "text": "qualified tutors"
+      },
+      {
+        "id": 4,
+        "num": 5,
+        "text": "years of experience"
+      }
+    ]
+  },
+  "aboutValues": {
+    "titleUp": "We always stand for",
+    "titleBottom": "Our core values",
+    "cards": [
+      {
+        "id": 1,
+        "cardImg": "/img/about/card1.svg",
+        "cardImgAlt": "createx values",
+        "title": "Structured Approach",
+        "text": "Aenean urna dictum adipiscing nec, cras quisque. Nunc in mauris."
+      },
+      {
+        "id": 2,
+        "cardImg": "/img/about/card2.svg",
+        "cardImgAlt": "createx values",
+        "title": "Professional Feedbacks",
+        "text": "Culpa nostrud commodo ea consequat reprehenderit aliquip."
+      },
+      {
+        "id": 3,
+        "cardImg": "/img/about/card3.svg",
+        "cardImgAlt": "createx values",
+        "title": "Efficiency",
+        "text": "Viverra scelerisque consequat net. Adipisicing esse consequat."
+      },
+      {
+        "id": 4,
+        "cardImg": "/img/about/card4.svg",
+        "cardImgAlt": "createx values",
+        "title": "Flexible Shedule",
+        "text": "Aute eiusmod dolore dolore deserunt veniam ad deserunt."
+      }
+    ]
+  },
+  "aboutTeach": {
+    "titleUp": "our main directions",
+    "titleBottom": "What do we teach",
+    "cards": [
+      {
+        "id": 1,
+        "cardImg": "/img/about/card1.png",
+        "cardImgAlt": "createx teach",
+        "position": "Marketing",
+        "text": "Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat.",
+        "linkText": "Check courses",
+        "linkArrowImg": "/img/about/arrow.svg",
+        "linkArrowImgAlt": "createx arrow"
+      },
+      {
+        "id": 2,
+        "cardImg": "/img/about/card2.png",
+        "cardImgAlt": "createx teach",
+        "position": "Management",
+        "text": "Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat.",
+        "linkText": "Check courses",
+        "linkArrowImg": "/img/about/arrow.svg",
+        "linkArrowImgAlt": "createx arrow"
+      },
+      {
+        "id": 3,
+        "cardImg": "/img/about/card3.png",
+        "cardImgAlt": "createx teach",
+        "position": "HR & Recruting",
+        "text": "Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat.",
+        "linkText": "Check courses",
+        "linkArrowImg": "/img/about/arrow.svg",
+        "linkArrowImgAlt": "createx arrow"
+      },
+      {
+        "id": 4,
+        "cardImg": "/img/about/card4.png",
+        "cardImgAlt": "createx teach",
+        "position": "Design",
+        "text": "Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat.",
+        "linkText": "Check courses",
+        "linkArrowImg": "/img/about/arrow.svg",
+        "linkArrowImgAlt": "createx arrow"
+      },
+      {
+        "id": 5,
+        "cardImg": "/img/about/card4.png",
+        "cardImgAlt": "createx teach",
+        "position": "Development",
+        "text": "Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat.",
+        "linkText": "Check courses",
+        "linkArrowImg": "/img/about/arrow.svg",
+        "linkArrowImgAlt": "createx arrow"
+      },
+      {
+        "id": 6,
+        "title": "New studying program coming soon..."
+      }
+    ]
+  },
+  "aboutProcess": {
+    "titleUp": "Studying process",
+    "titleBottom": "That’s how we do it",
+    "steps": [
+      {
+        "id": 1,
+        "titleUp": "step 1",
+        "titleBottom": "Watching online video lectures",
+        "text": "Aliquam turpis viverra quam sit interdum blandit posuere pellentesque. Nisl, imperdiet gravida massa neque."
+      },
+      {
+        "id": 2,
+        "titleUp": "step 2",
+        "titleBottom": "Passing test",
+        "text": "Facilisis pellentesque quis accumsan ultricies. Eu egestas eget feugiat lacus, amet, sollicitudin egestas laoreet etiam."
+      },
+      {
+        "id": 3,
+        "titleUp": "step 3",
+        "titleBottom": "Curator’s feedback",
+        "text": "Eget amet, enim pharetra leo egestas nisi, odio imperdiet facilisis. Aliquet orci varius volutpat egestas facilisi lobortis."
+      },
+      {
+        "id": 4,
+        "titleUp": "step 4",
+        "titleBottom": "Corrections if needed",
+        "text": "Non tempor pulvinar tincidunt aliquam. Placerat ultricies malesuada dui auctor."
+      }
+    ],
+    "lineImg": "/img/about/line.svg",
+    "lineImgAlt": "createx line",
+    "aboutProcessImg": "/img/about/process.png",
+    "aboutProcessImgAlt": "createx process"
+  },
+  "aboutTeam": {
+    "titleUp": "Best tutors are all here",
+    "titleBottom": "Meet our team",
+    "teamCard": [
+      {
+        "id": 1,
+        "teamImg": "/img/about/teamImg1.png",
+        "title": "Dianne Russell",
+        "text": "Founder and CEO"
+      },
+      {
+        "id": 2,
+        "teamImg": "/img/about/teamImg2.png",
+        "title": "Jerome Bell",
+        "text": "Founder and Program Director"
+      },
+      {
+        "id": 3,
+        "teamImg": "/img/about/teamImg3.png",
+        "title": "Kristin Watson",
+        "text": "Marketer, Curator of Marketing Course"
+      },
+      {
+        "id": 4,
+        "teamImg": "/img/about/teamImg4.png",
+        "title": "Marvin McKinney",
+        "text": "PM, Curator of Management Course"
+      },
+      {
+        "id": 5,
+        "teamImg": "/img/about/teamImg5.png",
+        "title": "Leslie Alexander Li",
+        "text": "Curator of HR & Recruting Course"
+      },
+      {
+        "id": 6,
+        "teamImg": "/img/about/teamImg6.png",
+        "title": "Kathryn Murphy",
+        "text": "Analyst and Marketing specialist"
+      },
+      {
+        "id": 7,
+        "teamImg": "/img/about/teamImg7.png",
+        "title": "Brooklyn Simmons",
+        "text": "Curator of Development Course"
+      },
+      {
+        "id": 8,
+        "teamImg": "/img/about/teamImg8.png",
+        "title": "Cody Fisher",
+        "text": "UX Designer, Curator of Design Course"
+      }
+    ]
+  },
+  "aboutTesimonial": {},
+  "aboutJobs": {
+    "titleUp": "best jobs for you",
+    "titleBottom": "Our students work here",
+    "jobs": [
+      {
+        "id": 1,
+        "jobImg": "/img/about/job1.svg",
+        "jobImgAlt": "createx jobs"
+      },
+      {
+        "id": 2,
+        "jobImg": "/img/about/job2.svg",
+        "jobImgAlt": "createx jobs"
+      },
+      {
+        "id": 3,
+        "jobImg": "/img/about/job3.svg",
+        "jobImgAlt": "createx jobs"
+      },
+      {
+        "id": 4,
+        "jobImg": "/img/about/job4.svg",
+        "jobImgAlt": "createx jobs"
+      },
+      {
+        "id": 5,
+        "jobImg": "/img/about/job5.svg",
+        "jobImgAlt": "createx jobs"
+      },
+      {
+        "id": 6,
+        "jobImg": "/img/about/job6.svg",
+        "jobImgAlt": "createx jobs"
+      },
+      {
+        "id": 7,
+        "jobImg": "/img/about/job7.svg",
+        "jobImgAlt": "createx jobs"
+      },
+      {
+        "id": 8,
+        "jobImg": "/img/about/job8.svg",
+        "jobImgAlt": "createx jobs"
+      },
+      {
+        "id": 9,
+        "jobImg": "/img/about/job9.svg",
+        "jobImgAlt": "createx jobs"
+      },
+      {
+        "id": 10,
+        "jobImg": "/img/about/job10.svg",
+        "jobImgAlt": "createx jobs"
+      },
+      {
+        "id": 11,
+        "jobImg": "/img/about/job11.svg",
+        "jobImgAlt": "createx jobs"
+      },
+      {
+        "id": 12,
+        "jobImg": "/img/about/job12.svg",
+        "jobImgAlt": "createx jobs"
+      }
+    ]
+  },
+  "aboutBlogs": {},
+  "subscribeData": {
+    "titleUp": "Don’t miss anything",
+    "titleBittom": "Subscribe to the Createx School announcements",
+    "placeholder": "Your working email",
+    "button": "Subscribe",
+    "subscribeImg": "/img/homepage/subscribeImg.svg",
+    "subscribeImgAlt": "createx subscribe"
+  }
+}

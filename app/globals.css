@@ -43,6 +43,7 @@ html {
 .btn-gradient {
   background: linear-gradient(to right, #ff3f3a, #f75e05);
   transition: background 0.3s;
+  border-radius: 0.4rem;
 }
 .btn-gradient:hover {
   background: transparent;
