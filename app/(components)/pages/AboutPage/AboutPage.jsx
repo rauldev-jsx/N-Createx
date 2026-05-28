@@ -1,4 +1,5 @@
 import Subscribe from "../../shared_components/Subscribe";
+import AboutProcess from "./sections/AboutProcess";
 import AboutScholl from "./sections/AboutScholl";
 import AboutTeach from "./sections/AboutTeach";
 import AboutValues from "./sections/AboutValues";
@@ -11,6 +12,7 @@ const AboutPage = ({ aboutData }) => {
       <AboutVideo data={aboutData} />
       <AboutValues data={aboutData} />
       <AboutTeach data={aboutData} />
+      <AboutProcess data={aboutData}/>
       <Subscribe data={aboutData} />
     </main>
   );
