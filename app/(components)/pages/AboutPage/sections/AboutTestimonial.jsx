@@ -2,24 +2,20 @@ import HomeTestimonialCards from "@/app/(components)/shared_components/HomeTesti
 import MaxWidth from "@/app/(components)/shared_components/MaxWidth";
 import TitleHeader from "@/app/(components)/shared_components/TitleHeader";
 
-const HomeTestimonial = ({ data }) => {
+const AboutTestimonial = ({ data }) => {
   return (
-    <section className="bg-[#F4F5F6] pb-[18rem]">
+    <section className="bg-[#F4F5F6] pt-[10rem] pb-[18rem]">
       <MaxWidth>
         <TitleHeader
-          titleUp={data?.homePageTestimonial?.titleUp}
-          titleBottom={data?.homePageTestimonial?.titleBottom}
+          titleUp={data?.aboutTesimonial?.titleUp}
+          titleBottom={data?.aboutTesimonial?.titleBottom}
           customClass="mb-[6rem]"
         />
 
-        <div>
-          <HomeTestimonialCards
-            cardData={data?.homePageTestimonial?.testimonial}
-          />
-        </div>
+        <HomeTestimonialCards cardData={data?.aboutTesimonial?.testimonial} />
       </MaxWidth>
     </section>
   );
 };
 
-export default HomeTestimonial;
+export default AboutTestimonial;

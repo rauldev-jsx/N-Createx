@@ -23,7 +23,7 @@ const HomeTestimonialCards = ({ cardData }) => {
       }}
       className="mySwiper"
     >
-      {cardData?.homePageTestimonial?.testimonial?.map((item) => {
+      {cardData?.map((item) => {
         return (
           <SwiperSlide
             className="bg-[#FFFFFF] px-[10rem] py-[6.4rem]"

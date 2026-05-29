@@ -173,54 +173,94 @@
       {
         "id": 1,
         "teamImg": "/img/about/teamImg1.png",
+        "teamImgAlt": "createx team",
         "title": "Dianne Russell",
         "text": "Founder and CEO"
       },
       {
         "id": 2,
         "teamImg": "/img/about/teamImg2.png",
+        "teamImgAlt": "createx team",
         "title": "Jerome Bell",
         "text": "Founder and Program Director"
       },
       {
         "id": 3,
         "teamImg": "/img/about/teamImg3.png",
+        "teamImgAlt": "createx team",
         "title": "Kristin Watson",
         "text": "Marketer, Curator of Marketing Course"
       },
       {
         "id": 4,
         "teamImg": "/img/about/teamImg4.png",
+        "teamImgAlt": "createx team",
         "title": "Marvin McKinney",
         "text": "PM, Curator of Management Course"
       },
       {
         "id": 5,
         "teamImg": "/img/about/teamImg5.png",
+        "teamImgAlt": "createx team",
         "title": "Leslie Alexander Li",
         "text": "Curator of HR & Recruting Course"
       },
       {
         "id": 6,
         "teamImg": "/img/about/teamImg6.png",
+        "teamImgAlt": "createx team",
         "title": "Kathryn Murphy",
         "text": "Analyst and Marketing specialist"
       },
       {
         "id": 7,
         "teamImg": "/img/about/teamImg7.png",
+        "teamImgAlt": "createx team",
         "title": "Brooklyn Simmons",
         "text": "Curator of Development Course"
       },
       {
         "id": 8,
         "teamImg": "/img/about/teamImg8.png",
+        "teamImgAlt": "createx team",
         "title": "Cody Fisher",
         "text": "UX Designer, Curator of Design Course"
       }
     ]
   },
-  "aboutTesimonial": {},
+  "aboutTesimonial": {
+    "titleUp": "testimonials",
+    "titleBottom": "What our students say",
+    "cardRightArrow": "/img/arrowRight.svg",
+    "cardRightLeft": "/img/arrowRight.svg",
+    "cardArrowImgAlt": "createx arrow",
+    "testimonial": [
+      {
+        "id": 1,
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.",
+        "personImg": "/img/homepage/person.png",
+        "personImgAlt": "createx person",
+        "personTitle": "Eleanor Pena",
+        "personText": "Position, Course"
+      },
+      {
+        "id": 2,
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.",
+        "personImg": "/img/homepage/person.png",
+        "personImgAlt": "createx person",
+        "personTitle": "Eleanor Pena",
+        "personText": "Position, Course"
+      },
+      {
+        "id": 3,
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.",
+        "personImg": "/img/homepage/person.png",
+        "personImgAlt": "createx person",
+        "personTitle": "Eleanor Pena",
+        "personText": "Position, Course"
+      }
+    ]
+  },
   "aboutJobs": {
     "titleUp": "best jobs for you",
     "titleBottom": "Our students work here",
