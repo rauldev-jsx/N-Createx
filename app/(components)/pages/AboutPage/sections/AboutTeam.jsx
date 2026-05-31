@@ -1,18 +1,16 @@
 import MaxWidth from "@/app/(components)/shared_components/MaxWidth";
+import TitleHeader from "@/app/(components)/shared_components/TitleHeader";
 import Image from "next/image";
 
 const AboutTeam = ({ data }) => {
   return (
     <section className="mb-[18rem]">
       <MaxWidth>
-        <div className="mb-[6rem] text-center">
-          <p className="text-[1.6rem] text-[#1E212C] font-[700]">
-            {data?.aboutTeam?.titleUp}
-          </p>
-          <h3 className="text-[4.6rem] text-[#1E212C] font-[900]">
-            {data?.aboutTeam?.titleBottom}
-          </h3>
-        </div>
+        <TitleHeader
+          titleUp={data?.aboutTeam?.titleUp}
+          titleBottom={data?.aboutTeam?.titleBottom}
+          customClass="mb-[6rem] text-center"
+        />
         <div className="grid grid-cols-12 gap-y-[6rem] gap-x-[3rem]">
           {data?.aboutTeam?.teamCard?.map((item) => {
             return (

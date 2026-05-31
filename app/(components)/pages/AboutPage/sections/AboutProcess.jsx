@@ -1,18 +1,17 @@
 import MaxWidth from "@/app/(components)/shared_components/MaxWidth";
+import TitleHeader from "@/app/(components)/shared_components/TitleHeader";
 import Image from "next/image";
 
 const AboutProcess = ({ data }) => {
   return (
     <section className="mb-[18rem]">
       <MaxWidth>
-        <div className="mb-[6rem]">
-          <p className="text-[1.6rem] text-[#1E212C] font-[700]">
-            {data?.aboutProcess?.titleUp}
-          </p>
-          <h3 className="text-[4.6rem] text-[#1E212C] font-[900]">
-            {data?.aboutProcess?.titleBottom}
-          </h3>
-        </div>
+        <TitleHeader
+          titleUp={data?.aboutProcess?.titleUp}
+          titleBottom={data?.aboutProcess?.titleBottom}
+          customClass="mb-[6rem]"
+        />
+
         <div className="grid grid-cols-12">
           <div className="col-span-6 flex flex-col gap-[3.2rem]">
             {data?.aboutProcess?.steps?.map((item) => {

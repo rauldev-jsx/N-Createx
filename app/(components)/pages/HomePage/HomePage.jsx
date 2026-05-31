@@ -1,3 +1,4 @@
+import BlogPosts from "../../shared_components/BlogPosts";
 import Subscribe from "../../shared_components/Subscribe";
 import HomeAbout from "./sections/HomeAbout";
 import HomeBenefits from "./sections/HomeBenefits";
@@ -20,8 +21,8 @@ const HomePage = ({ homeData }) => {
       <HomeCertificate data={homeData} />
       <HomeTeam data={homeData} />
       <HomeTestimonial data={homeData} />
-      <HomeBlog data={homeData} />
-      <Subscribe data={homeData}/>
+      <BlogPosts data={homeData?.homePageBlog} />
+      <Subscribe data={homeData} />
     </main>
   );
 };

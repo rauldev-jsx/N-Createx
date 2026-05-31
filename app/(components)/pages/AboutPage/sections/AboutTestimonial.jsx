@@ -9,7 +9,7 @@ const AboutTestimonial = ({ data }) => {
         <TitleHeader
           titleUp={data?.aboutTesimonial?.titleUp}
           titleBottom={data?.aboutTesimonial?.titleBottom}
-          customClass="mb-[6rem]"
+          customClass="mb-[6rem] text-center"
         />
 
         <HomeTestimonialCards cardData={data?.aboutTesimonial?.testimonial} />

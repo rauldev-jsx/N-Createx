@@ -12,7 +12,7 @@ const AboutVideo = ({ data }) => {
             width={52}
             height={52}
           />
-
+  
           <p className="text-[1.4rem] text-[#1E212C] font-[700]">
             {data?.aboutVideo?.titleUp}
           </p>
