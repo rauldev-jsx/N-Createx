@@ -118,3 +118,33 @@ html {
 .card-outline {
   outline: 1px solid #e5e8ed;
 }
+
+.before-line {
+  position: relative;
+  padding-left: 2.4rem;
+}
+
+.before-line::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: #E5E5E5;
+}
+
+.step-item {
+  position: relative;
+}
+
+.step-item::before {
+  content: '';
+  position: absolute;
+  left: -2.8rem; /* подберите под свой padding */
+  top: 0.6rem;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ff3f3a;
+}

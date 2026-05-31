@@ -12,11 +12,11 @@ const AboutProcess = ({ data }) => {
           customClass="mb-[6rem]"
         />
 
-        <div className="grid grid-cols-12">
-          <div className="col-span-6 flex flex-col gap-[3.2rem]">
+        <div className="grid grid-cols-12 before-line">
+          <div className="col-span-6 flex flex-col gap-[6.2rem]">
             {data?.aboutProcess?.steps?.map((item) => {
               return (
-                <div key={item?.id}>
+                <div key={item?.id} className="step-item">
                   <span className="text-[1.2rem] text-[#787A80] font-[900] uppercase">
                     {item?.titleUp}
                   </span>

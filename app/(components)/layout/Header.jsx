@@ -34,7 +34,7 @@ const Header = ({ headerData }) => {
             {headerData?.links?.map((item) => {
               return (
                 <Link
-                  className={`${pathName === item?.url ? "text-[#FF3F3A] text-[1.6rem]  font-[700] outline-none" : "text-[1.6rem] text-[#424551] font-[700] outline-none"}`}
+                  className={`${pathName === item?.url ? "text-[#FF3F3A] text-[1.6rem]  font-[700] outline-none" : "text-[1.6rem] text-[#424551] hover:text-[#FF3F3A] transition font-[700] outline-none"}`}
                   key={item?.id}
                   href={item?.url}
                 >
@@ -63,14 +63,14 @@ const Header = ({ headerData }) => {
             </div>
             <button
               onClick={() => openModal("login")}
-              className="text-[1.6rem] text-[#424551] font-[700]"
+              className="text-[1.6rem] text-[#424551] font-[700] hover:text-[#FF3F3A] transition"
             >
               {headerData?.buttons?.btn2}
             </button>
             <span className="text-[1.6rem] text-[#424551]">{"/"}</span>
             <button
               onClick={() => openModal("register")}
-              className="text-[1.6rem] text-[#424551] font-[700]"
+              className="text-[1.6rem] text-[#424551] font-[700] hover:text-[#FF3F3A] transition"
             >
               {headerData?.buttons?.btn3}
             </button>
