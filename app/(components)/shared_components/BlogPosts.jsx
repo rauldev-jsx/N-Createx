@@ -83,7 +83,7 @@ const BlogPosts = ({ data }) => {
                   </p>
 
                   <Link
-                    className="text-[1.6rem] text-[#1E212C] font-[700] flex items-center gap-[0.8rem]"
+                    className="text-[1.6rem] text-[#1E212C] font-[700] inline-flex items-center gap-[0.8rem] hover:text-[#FF3F3A] transition"
                     href={"/blog"}
                   >
                     {item?.link}

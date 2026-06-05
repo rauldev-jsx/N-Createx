@@ -50,7 +50,7 @@ const AboutTeach = ({ data }) => {
 
                   <Link
                     href={"/cources"}
-                    className="text-[1.6rem] text-[#1E212C] font-[700] flex items-center gap-[0.8rem] hover:text-[#FF3F3A] transition"
+                    className="text-[1.6rem] text-[#1E212C] font-[700] inline-flex items-center gap-[0.8rem] hover:text-[#FF3F3A] transition"
                   >
                     {item?.linkText}
                     <Image

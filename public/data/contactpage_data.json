@@ -1,0 +1,88 @@
+{
+  "contactInfo": {
+    "titleUp": "Contact info",
+    "titleBottom": "Get in touch",
+    "contact": [
+      {
+        "id": 1,
+        "icoImg": "/img/contact/chat.svg",
+        "icoImgAlt": "createx chat",
+        "titleUp": "Talk to us:",
+        "titleBottom": "hello@createx.com"
+      },
+      {
+        "id": 2,
+        "icoImg": "/img/contact/phone.svg",
+        "icoImgAlt": "createx phone",
+        "titleUp": "Call us:",
+        "titleBottom": "(405) 555-0128"
+      },
+      {
+        "id": 3,
+        "icoImg": "/img/contact/gps.svg",
+        "icoImgAlt": "createx gps",
+        "titleUp": "Address:",
+        "titleBottom": "2464 Royal Ln. Mesa, New Jersey 45463, USA"
+      }
+    ],
+    "mapImg": "/img/contact/map.png",
+    "mapImgAlt": "createx map",
+    "socialTtitle": "Follow us:",
+    "social": [
+      {
+        "id": 1,
+        "iconImg": "/img/contact/facebook.svg",
+        "iconImgAlt": "createx facebook",
+        "url": "/"
+      },
+      {
+        "id": 2,
+        "iconImg": "/img/contact/twitter.svg",
+        "iconImgAlt": "createx twitter",
+        "url": "/"
+      },
+      {
+        "id": 3,
+        "iconImg": "/img/contact/youtube.svg",
+        "iconImgAlt": "createx youtube",
+        "url": "/"
+      },
+      {
+        "id": 4,
+        "iconImg": "/img/contact/telegram.svg",
+        "iconImgAlt": "createx telegram",
+        "url": "/"
+      },
+      {
+        "id": 5,
+        "iconImg": "/img/contact/instagram.svg",
+        "iconImgAlt": "createx instagram",
+        "url": "/"
+      },
+      {
+        "id": 6,
+        "iconImg": "/img/contact/linkedin.svg",
+        "iconImgAlt": "createx linkedin",
+        "url": "/"
+      }
+    ]
+  },
+  "contactQuestion": {
+    "titleUp": "Any questions?",
+    "titleBottom": "Drop us a line",
+    "fistName": "First Name*",
+    "placeHolderFist": "Your first name",
+    "lastName": "Last  Name*",
+    "placeHolderLast": "Your last name",
+    "email": "Email*",
+    "placeHolderEmail": "Your working email",
+    "phone": "Phone",
+    "placeHolderPhone": "Your phone number",
+    "textArea": "Message*",
+    "placeHolderTextArea": "Your message",
+    "confirm": "I agree to receive communications from Createx Online School",
+    "btn": "Send message",
+    "img": "/img/contact/question.png",
+    "imgAlt": "createx question"
+  }
+}
